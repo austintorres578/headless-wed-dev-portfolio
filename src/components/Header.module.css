@@ -44,3 +44,15 @@
     width: 100%;
     object-fit: contain;
 }
+
+.site-header .nav-menu .orange-button{
+  background-color: #ff5a1f;
+  padding:5px 12.5px;
+  border-radius: 99px;
+  color: white;
+  transition:.25s
+}
+
+.site-header .nav-menu .orange-button:hover{
+  background-color: #fc7e51;
+}

@@ -1,6 +1,14 @@
-body{
-  margin: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
 
 /* :root {
   --text: #6b6375;
@@ -113,3 +121,4 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 } */
+
