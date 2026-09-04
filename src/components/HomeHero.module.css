@@ -1,9 +1,9 @@
 @media(max-width:835px){
-    body .home-hero .site-container{
+    body .home-hero .section-wrapper{
         flex-wrap: wrap;
     }
 
-    body .home-hero .site-container > div{
+    body .home-hero .section-wrapper > div{
         width: 100%;
     }
 }
@@ -17,7 +17,7 @@
   justify-content: center;
 }
 
-.home-hero .site-container {
+.home-hero .section-wrapper {
   width: 100%;
   max-width: 1260px;
   margin-left: auto;
@@ -29,7 +29,7 @@
 }
 
 
-.home-hero .site-container > div {
+.home-hero .section-wrapper > div {
   width: 50%;
   min-width: 0;
 }
@@ -50,7 +50,7 @@
   margin-right: auto;
 }
 
-.home-hero .site-container {
+.home-hero .section-wrapper {
   display: flex;
   align-items: center;
   height: 100%;

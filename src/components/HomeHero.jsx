@@ -5,7 +5,7 @@ import styles from '../components/HomeHero.module.css'
 export default function HomeHero() {
     return (
         <section className={styles["home-hero"]}>
-            <div className={styles["site-container"]}>
+            <div className={styles["section-wrapper"]}>
                 <div className={styles["hero-content"]}>
                     <span className={styles["pretext"]}>Freelance Web Developer · NJ</span>
                     <h1>
